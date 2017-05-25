@@ -1,0 +1,23 @@
+{
+  "name": "frankenjs-2017-nodejs-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": "git@github.com:thinktecture/frankenjs-2017-nodejs-typescript.git",
+  "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.3"
+  },
+  "dependencies": {
+    "@types/restify": "^4.3.2",
+    "@types/sequelize": "^4.0.55",
+    "pg": "^6.2.3",
+    "restify": "^4.3.0",
+    "sequelize": "^3.30.4"
+  }
+}
